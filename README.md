@@ -18,8 +18,8 @@
 
 ### exp2 LinearRegression
 
-数据来源为 台湾经济数据1999-2009
+数据源	**台湾经济数据1999-2009**
 
-[台湾经济数据1999-2009]: https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction
+https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction
 
 本次实验对“息前资产收益率和息前折旧”条目进行线性回归
