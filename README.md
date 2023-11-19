@@ -23,3 +23,10 @@
 https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction
 
 本次实验对“息前资产收益率和息前折旧”条目进行线性回归
+
+### exp3 KNN
+
+数据集为150条鸢尾花数据, 三种鸢尾花各50条
+
+使用KNN算法根据花瓣的长和宽对三种鸢尾花进行分类，分类准确率为 98%。
+
