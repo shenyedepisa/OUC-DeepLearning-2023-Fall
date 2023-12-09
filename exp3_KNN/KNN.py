@@ -59,9 +59,9 @@ if __name__ == "__main__":
     # 计算准确率
     n = np.sum(pred_labels != test_y.ravel())
     accuracy = np.sum(pred_labels == test_y.ravel()) / len(test_y)
-    print('测试集聚类的准确率为: {:.2f}\n聚类错误的点个数: {}'.format(accuracy, n))
+    print('测试集聚类的准确率为: {:.3f}%\n聚类错误的点个数: {}'.format(accuracy*100, n))
 
     # 画图
     draw(train_x, train_y, 'iris classification(train)')
     draw(test_x, test_y, 'iris classification(test)')
-    draw(test_x, pred_labels, 'iris classification(prediction)')
+    draw(test_x, pred_labels, 'iris classification(KNN: prediction)')
