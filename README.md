@@ -28,7 +28,7 @@
 
 使用KNN算法根据花瓣的长和宽对三种鸢尾花进行分类，分类准确率为 97.8%
 
-### exp4 mlp & dp
+### exp4 mlp & bp
 
 数据集同exp3 [iris](https://archive.ics.uci.edu/dataset/53/iris)
 
